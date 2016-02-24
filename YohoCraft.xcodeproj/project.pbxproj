@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421018231C7D9CF1005B4926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421018221C7D9CF1005B4926 /* AppDelegate.swift */; };
+		421018251C7D9CF1005B4926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421018241C7D9CF1005B4926 /* ViewController.swift */; };
+		421018281C7D9CF1005B4926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421018261C7D9CF1005B4926 /* Main.storyboard */; };
+		4210182A1C7D9CF1005B4926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421018291C7D9CF1005B4926 /* Assets.xcassets */; };
+		4210182D1C7D9CF1005B4926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4210182B1C7D9CF1005B4926 /* LaunchScreen.storyboard */; };
+		421018381C7D9CF1005B4926 /* YohoCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421018371C7D9CF1005B4926 /* YohoCraftTests.swift */; };
+		421018431C7D9CF1005B4926 /* YohoCraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421018421C7D9CF1005B4926 /* YohoCraftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421018341C7D9CF1005B4926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421018171C7D9CF1005B4926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4210181E1C7D9CF1005B4926;
+			remoteInfo = YohoCraft;
+		};
+		4210183F1C7D9CF1005B4926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421018171C7D9CF1005B4926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4210181E1C7D9CF1005B4926;
+			remoteInfo = YohoCraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4210181F1C7D9CF1005B4926 /* YohoCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YohoCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421018221C7D9CF1005B4926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		421018241C7D9CF1005B4926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		421018271C7D9CF1005B4926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		421018291C7D9CF1005B4926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4210182C1C7D9CF1005B4926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4210182E1C7D9CF1005B4926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421018331C7D9CF1005B4926 /* YohoCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YohoCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421018371C7D9CF1005B4926 /* YohoCraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YohoCraftTests.swift; sourceTree = "<group>"; };
+		421018391C7D9CF1005B4926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4210183E1C7D9CF1005B4926 /* YohoCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YohoCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421018421C7D9CF1005B4926 /* YohoCraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YohoCraftUITests.swift; sourceTree = "<group>"; };
+		421018441C7D9CF1005B4926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4210181C1C7D9CF1005B4926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421018301C7D9CF1005B4926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4210183B1C7D9CF1005B4926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421018161C7D9CF1005B4926 = {
+			isa = PBXGroup;
+			children = (
+				421018211C7D9CF1005B4926 /* YohoCraft */,
+				421018361C7D9CF1005B4926 /* YohoCraftTests */,
+				421018411C7D9CF1005B4926 /* YohoCraftUITests */,
+				421018201C7D9CF1005B4926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		421018201C7D9CF1005B4926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4210181F1C7D9CF1005B4926 /* YohoCraft.app */,
+				421018331C7D9CF1005B4926 /* YohoCraftTests.xctest */,
+				4210183E1C7D9CF1005B4926 /* YohoCraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421018211C7D9CF1005B4926 /* YohoCraft */ = {
+			isa = PBXGroup;
+			children = (
+				421018221C7D9CF1005B4926 /* AppDelegate.swift */,
+				421018241C7D9CF1005B4926 /* ViewController.swift */,
+				421018261C7D9CF1005B4926 /* Main.storyboard */,
+				421018291C7D9CF1005B4926 /* Assets.xcassets */,
+				4210182B1C7D9CF1005B4926 /* LaunchScreen.storyboard */,
+				4210182E1C7D9CF1005B4926 /* Info.plist */,
+			);
+			path = YohoCraft;
+			sourceTree = "<group>";
+		};
+		421018361C7D9CF1005B4926 /* YohoCraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				421018371C7D9CF1005B4926 /* YohoCraftTests.swift */,
+				421018391C7D9CF1005B4926 /* Info.plist */,
+			);
+			path = YohoCraftTests;
+			sourceTree = "<group>";
+		};
+		421018411C7D9CF1005B4926 /* YohoCraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				421018421C7D9CF1005B4926 /* YohoCraftUITests.swift */,
+				421018441C7D9CF1005B4926 /* Info.plist */,
+			);
+			path = YohoCraftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4210181E1C7D9CF1005B4926 /* YohoCraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421018471C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraft" */;
+			buildPhases = (
+				4210181B1C7D9CF1005B4926 /* Sources */,
+				4210181C1C7D9CF1005B4926 /* Frameworks */,
+				4210181D1C7D9CF1005B4926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YohoCraft;
+			productName = YohoCraft;
+			productReference = 4210181F1C7D9CF1005B4926 /* YohoCraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		421018321C7D9CF1005B4926 /* YohoCraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4210184A1C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraftTests" */;
+			buildPhases = (
+				4210182F1C7D9CF1005B4926 /* Sources */,
+				421018301C7D9CF1005B4926 /* Frameworks */,
+				421018311C7D9CF1005B4926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421018351C7D9CF1005B4926 /* PBXTargetDependency */,
+			);
+			name = YohoCraftTests;
+			productName = YohoCraftTests;
+			productReference = 421018331C7D9CF1005B4926 /* YohoCraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4210183D1C7D9CF1005B4926 /* YohoCraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4210184D1C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraftUITests" */;
+			buildPhases = (
+				4210183A1C7D9CF1005B4926 /* Sources */,
+				4210183B1C7D9CF1005B4926 /* Frameworks */,
+				4210183C1C7D9CF1005B4926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421018401C7D9CF1005B4926 /* PBXTargetDependency */,
+			);
+			name = YohoCraftUITests;
+			productName = YohoCraftUITests;
+			productReference = 4210183E1C7D9CF1005B4926 /* YohoCraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421018171C7D9CF1005B4926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yoho Gong";
+				TargetAttributes = {
+					4210181E1C7D9CF1005B4926 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					421018321C7D9CF1005B4926 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4210181E1C7D9CF1005B4926;
+					};
+					4210183D1C7D9CF1005B4926 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4210181E1C7D9CF1005B4926;
+					};
+				};
+			};
+			buildConfigurationList = 4210181A1C7D9CF1005B4926 /* Build configuration list for PBXProject "YohoCraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421018161C7D9CF1005B4926;
+			productRefGroup = 421018201C7D9CF1005B4926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4210181E1C7D9CF1005B4926 /* YohoCraft */,
+				421018321C7D9CF1005B4926 /* YohoCraftTests */,
+				4210183D1C7D9CF1005B4926 /* YohoCraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4210181D1C7D9CF1005B4926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4210182D1C7D9CF1005B4926 /* LaunchScreen.storyboard in Resources */,
+				4210182A1C7D9CF1005B4926 /* Assets.xcassets in Resources */,
+				421018281C7D9CF1005B4926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421018311C7D9CF1005B4926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4210183C1C7D9CF1005B4926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4210181B1C7D9CF1005B4926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421018251C7D9CF1005B4926 /* ViewController.swift in Sources */,
+				421018231C7D9CF1005B4926 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4210182F1C7D9CF1005B4926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421018381C7D9CF1005B4926 /* YohoCraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4210183A1C7D9CF1005B4926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421018431C7D9CF1005B4926 /* YohoCraftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421018351C7D9CF1005B4926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4210181E1C7D9CF1005B4926 /* YohoCraft */;
+			targetProxy = 421018341C7D9CF1005B4926 /* PBXContainerItemProxy */;
+		};
+		421018401C7D9CF1005B4926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4210181E1C7D9CF1005B4926 /* YohoCraft */;
+			targetProxy = 4210183F1C7D9CF1005B4926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		421018261C7D9CF1005B4926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421018271C7D9CF1005B4926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4210182B1C7D9CF1005B4926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4210182C1C7D9CF1005B4926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		421018451C7D9CF1005B4926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		421018461C7D9CF1005B4926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421018481C7D9CF1005B4926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YohoCraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Entropy.YohoCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		421018491C7D9CF1005B4926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YohoCraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Entropy.YohoCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4210184B1C7D9CF1005B4926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YohoCraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Entropy.YohoCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YohoCraft.app/YohoCraft";
+			};
+			name = Debug;
+		};
+		4210184C1C7D9CF1005B4926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YohoCraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Entropy.YohoCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YohoCraft.app/YohoCraft";
+			};
+			name = Release;
+		};
+		4210184E1C7D9CF1005B4926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YohoCraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Entropy.YohoCraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YohoCraft;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4210184F1C7D9CF1005B4926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YohoCraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Entropy.YohoCraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YohoCraft;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4210181A1C7D9CF1005B4926 /* Build configuration list for PBXProject "YohoCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421018451C7D9CF1005B4926 /* Debug */,
+				421018461C7D9CF1005B4926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421018471C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421018481C7D9CF1005B4926 /* Debug */,
+				421018491C7D9CF1005B4926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4210184A1C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4210184B1C7D9CF1005B4926 /* Debug */,
+				4210184C1C7D9CF1005B4926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4210184D1C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4210184E1C7D9CF1005B4926 /* Debug */,
+				4210184F1C7D9CF1005B4926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421018171C7D9CF1005B4926 /* Project object */;
+}
