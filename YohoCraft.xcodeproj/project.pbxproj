@@ -14,6 +14,7 @@
 		4210182D1C7D9CF1005B4926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4210182B1C7D9CF1005B4926 /* LaunchScreen.storyboard */; };
 		421018381C7D9CF1005B4926 /* YohoCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421018371C7D9CF1005B4926 /* YohoCraftTests.swift */; };
 		421018431C7D9CF1005B4926 /* YohoCraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421018421C7D9CF1005B4926 /* YohoCraftUITests.swift */; };
+		99878E85EA9AE9FB785AEE36 /* Pods_YohoCraft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54D303567DBF1A3DF43A9FD /* Pods_YohoCraft.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C4B5DA21CE58476962E294E /* Pods-YohoCraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YohoCraft.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YohoCraft/Pods-YohoCraft.debug.xcconfig"; sourceTree = "<group>"; };
 		4210181F1C7D9CF1005B4926 /* YohoCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YohoCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		421018221C7D9CF1005B4926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		421018241C7D9CF1005B4926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		4210183E1C7D9CF1005B4926 /* YohoCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YohoCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		421018421C7D9CF1005B4926 /* YohoCraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YohoCraftUITests.swift; sourceTree = "<group>"; };
 		421018441C7D9CF1005B4926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFB3E95DB9884CCB2393F82 /* Pods-YohoCraft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YohoCraft.release.xcconfig"; path = "Pods/Target Support Files/Pods-YohoCraft/Pods-YohoCraft.release.xcconfig"; sourceTree = "<group>"; };
+		D54D303567DBF1A3DF43A9FD /* Pods_YohoCraft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YohoCraft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99878E85EA9AE9FB785AEE36 /* Pods_YohoCraft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				421018361C7D9CF1005B4926 /* YohoCraftTests */,
 				421018411C7D9CF1005B4926 /* YohoCraftUITests */,
 				421018201C7D9CF1005B4926 /* Products */,
+				E332DFD7A1FB050692CA2E17 /* Pods */,
+				A6B03D6E7E361B7B365C3B75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = YohoCraftUITests;
 			sourceTree = "<group>";
 		};
+		A6B03D6E7E361B7B365C3B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D54D303567DBF1A3DF43A9FD /* Pods_YohoCraft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E332DFD7A1FB050692CA2E17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B5DA21CE58476962E294E /* Pods-YohoCraft.debug.xcconfig */,
+				8AFB3E95DB9884CCB2393F82 /* Pods-YohoCraft.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 421018471C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraft" */;
 			buildPhases = (
+				E551BA74645D6BBC96FE1B4D /* Check Pods Manifest.lock */,
 				4210181B1C7D9CF1005B4926 /* Sources */,
 				4210181C1C7D9CF1005B4926 /* Frameworks */,
 				4210181D1C7D9CF1005B4926 /* Resources */,
+				BBF6331B9796F722465484FD /* Embed Pods Frameworks */,
+				AD423BC4FF1733B1B35F525D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD423BC4FF1733B1B35F525D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YohoCraft/Pods-YohoCraft-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF6331B9796F722465484FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YohoCraft/Pods-YohoCraft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E551BA74645D6BBC96FE1B4D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4210181B1C7D9CF1005B4926 /* Sources */ = {
@@ -395,6 +470,7 @@
 		};
 		421018481C7D9CF1005B4926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4B5DA21CE58476962E294E /* Pods-YohoCraft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YohoCraft/Info.plist;
@@ -406,6 +482,7 @@
 		};
 		421018491C7D9CF1005B4926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFB3E95DB9884CCB2393F82 /* Pods-YohoCraft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YohoCraft/Info.plist;
@@ -482,6 +559,7 @@
 				421018491C7D9CF1005B4926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4210184A1C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraftTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +568,7 @@
 				4210184C1C7D9CF1005B4926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4210184D1C7D9CF1005B4926 /* Build configuration list for PBXNativeTarget "YohoCraftUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +577,7 @@
 				4210184F1C7D9CF1005B4926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
