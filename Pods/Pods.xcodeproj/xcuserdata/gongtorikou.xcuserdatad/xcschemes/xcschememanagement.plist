@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LTMorphingLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-YohoCraft.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>138B333FE63A2A9F2DBA300511A0BCEB</key>
+		<key>0DCBD6C869DCC15AF62D43471CB4592C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97AC045C0D14EFECD1B33E7C376D2FBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3AE699143BF3ADCE0AC32355EF475B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

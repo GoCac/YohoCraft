@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5FC2B0364FBB6BF8F121330B'
-               BlueprintName = 'Alamofire'
+               BlueprintIdentifier = '2BF2DA073BDBA76874A92D45'
+               BlueprintName = 'LTMorphingLabel'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Alamofire.framework'>
+               BuildableName = 'LTMorphingLabel.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

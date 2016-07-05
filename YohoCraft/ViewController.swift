@@ -7,16 +7,47 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+import LTMorphingLabel
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        let label = LTMorphingLabel(frame: CGRectMake(100, 100, 100, 100));
+        label.text = "alskdjf";
+        label.morphingEffect = .Evaporate;
+        view.addSubview(label);
         
-        let url = "http://202.118.65.53/mobileplatform/unifiedEntranceModel.do?functionPyname=cxyktjbxx&param={%22ydusertype%22:%220%22,%22imei%22:%22%3C27dfe3be%202fcfd3d1%200718b0ee%20a7d21cea%20af88da96%2049624317%20bbe2e244%2094157914%3E%22,%22param%22:%22201201240%22,%22appid%22:%22dlut-ylkxt%22}";
-        print(url);
-        Alamofire.request(.GET, url).responseJSON { (response) -> Void in
-            print(response);
+        let greetView = GreetView.init(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, 50))
+        view.addSubview(greetView)
+        
+        let key = "c6e93443ee564a9aae43aee26f203036"
+        let cityID = "CN101210101"
+        let url = "https://api.heweather.com/x3/weather?cityid=\(cityID)&key=\(key)"
+        Alamofire.request(.GET, url).responseJSON { (Response) in
+//            print(Response)
+            if let data = Response.result.value{
+                let json = JSON(data)
+                print(json.dictionaryValue)
+            }
         }
+        
+//        let url = "http://202.118.65.53/mobileplatform/unifiedEntranceModel.do?"
+//        let number = 201201240;
+//        Alamofire.request(.GET, url, parameters: [ "functionPyname":"cxyktjbxx", "param": "{\"ydusertype\":\"2\",\"imei\":\"<27dfe3be 2fcfd3d1 0718b0ee a7d21cea af88da96 49624317 bbe2e244 94157914>\",\"param\":\"\(number)\",\"appid\":\"dlut-ylkxt\"}" ]).responseJSON { (Response) -> Void in
+//            print(Response.result.value);
+//            if let data = Response.result.value {
+//                let json = JSON(data);
+//                print(json["username"].stringValue);
+//                label.text = "sdfkii";
+//            }
+//            if let data = Response.data {
+//                let username = json["username"].stringValue;
+//                print(username);
+//            }
+//        }
+        
     }
     
     override func didReceiveMemoryWarning() {

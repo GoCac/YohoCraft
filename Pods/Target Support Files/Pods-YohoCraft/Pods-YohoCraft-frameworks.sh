@@ -85,7 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-YohoCraft/Alamofire.framework"
+  install_framework "Pods-YohoCraft/LTMorphingLabel.framework"
+  install_framework "Pods-YohoCraft/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-YohoCraft/Alamofire.framework"
+  install_framework "Pods-YohoCraft/LTMorphingLabel.framework"
+  install_framework "Pods-YohoCraft/SwiftyJSON.framework"
 fi
